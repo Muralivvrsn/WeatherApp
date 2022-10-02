@@ -1,0 +1,59 @@
+.top-tire,.bottom-tire,.middle-tire,.celcius,.foreign{
+    margin: 30px;
+}
+.top-tire{
+    height: 100px;
+    padding: 10px;
+}
+.middle-tire{
+    display: flex;
+    height: 300px;
+    justify-content: space-between;
+}
+.bottom-tire{
+    padding: 50px;
+    height: 300px;
+}
+input{
+    position: fixed;
+    font-family: monospace;
+    width: 50%;
+    font-size: 1.5rem;
+    height: 30px;
+    margin-left: 19%;
+    border-radius: 20px;
+    text-align: center;
+    letter-spacing: 3px;
+    padding: 10px;
+}
+input::placeholder{
+    letter-spacing: 2px;
+    text-align: center;
+}
+button{
+    position: fixed;
+    margin-left: 72%;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.celcius,.foreign{
+    width: 200px;
+    text-align: center;
+    font-size: 5rem;
+    padding-top: 20px;
+}
+sup{
+    font-size: 3.5rem;
+}
+.images{
+    width: 100%;
+}
+.bottom-tire > span{
+    font-size: 2rem;
+}
+body{
+    background: linear-gradient(90deg, #FFFFFF, #000000);
+}
+
