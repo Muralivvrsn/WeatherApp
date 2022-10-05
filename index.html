@@ -9,23 +9,34 @@
     <title>Weather</title>
 </head>
 
-<body>
+<body id="root">
+    <div class="root">
+        <!-- <div class="success">
+            <span id="Message">Success!!!</span>
+        </div> -->
+    <video autoplay muted loop id="video">
+        <source src="Rainy.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
     <div class="top-tire">
-        <input type="text" placeholder="Search by location">
+        <input type="text" placeholder="Search by location" id="input">
         <button id="btn-search">&#128269</button>
+    </div>
+    <div class="climate">
+        <p id="climate">Rainy</p>
     </div>
     <div class="middle-tire">
         <div class="celcius">
-            <span><span id="celcius">23</span><sup>o</sup>c</span>
+            <p id="celcius">23<sup>o</sup>c</p>
         </div>
-        <div class="images">
+        <div class="details-loc" id="details">
         </div>
         <div class="foreign">
-            <span><span id="foreign"> 45</span><sup>o</sup>F</span>
+            <p id="foreign">45<sup>o</sup>f</p>
         </div>
     </div>
-    <div class="bottom-tire">
-        <span id="location">Location :</span><span> Rajanagaram</span>
+    
+    
     </div>
     <script src="app.js"></script>
 </body>
